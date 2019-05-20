@@ -11,6 +11,9 @@ public class CalcularPeriodo {
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
 		
+		LocalDate fechaHoy = LocalDate.of(20, 05, 2019);
+		calcularPeriodo("Clonado", fechaHoy);
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
